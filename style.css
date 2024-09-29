@@ -1,0 +1,85 @@
+
+body{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container-one{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#layout{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+
+}
+
+.item{
+    padding: 25px;
+    color:white;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+
+.one{
+    background-color: hsl(263, 55%, 52%);
+    opacity: .9;
+    grid-column: span 2;
+}
+
+.two{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.four{
+    grid-column: span 2;
+    background-color: hsl(219, 29%, 14%);
+}
+
+.five{
+    background-color: (0, 0%, 100%);
+    grid-row: span 2;
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 4px 4px 10px rgba(138, 135, 135,.5);
+}
+
+.three{
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 4px 4px 10px rgba(138, 135, 135,.5);
+}
+
+.para{
+    color:rgb(151, 147, 147);
+    font-size: 13px;
+}
+
+.image{
+    margin-top: 5px;
+    width:40px;
+    height: 40px;
+    border-radius:50%;
+    border:1px solid white;
+}
+
+.inside-top{
+    display: flex;
+    column-gap: 10px;
+}
+
+.inside-top span{
+    display: block;
+}
+
+.inside-top p{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-weight: bold;
+}
